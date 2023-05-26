@@ -25,3 +25,18 @@ public:
 
 };
 
+void doublelinkedlist::addnode(){
+	int nim;
+	string nm;
+	cout << "\nEnter the roll number of the student:";
+	cin >> nim;
+	cout << "\nEnter the name of the student:";
+	cin >> nm;
+
+	node* newNode = new node(); //step1
+	newNode->noMhs = nim; //step 2
+	newNode->name = nm; //step3
+
+
+}
+
