@@ -114,4 +114,7 @@ void doublelinkedlist::traverse() {
 	}
 }
 
- 
+void doublelinkedlist::revtraverse() {
+
+}
+
